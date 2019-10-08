@@ -1,4 +1,4 @@
-import random
+#import random
 
 pin = 1234
 
@@ -16,14 +16,14 @@ userPin = int(input("Skriv in din pinkod: "))
 #print(saldo)
 #file.close()
 
-
-saldo = random.randint (0,100000000)
+saldo = 0.0
+#saldo = random.randint (0,100000000)
 menu = 0
 print ("menu 1 instättning")
 print ("menu 2 uttag")  
 print ("menu 3 Balance")
 print ("menu 4 Avsluta")
-while menu != 4:  #Detta är en loop som fungerar som en meny, 
+while menu != 4:  #Detta är en loop som fungerar som en meny, med en vilkors sats med olika funktioner
     print("Ditt saldo är: " + str(saldo) + "kr")
     menu = int(input("Skriv in ditt val[1, 2, 3, 4]: "))
     if menu == 1: 

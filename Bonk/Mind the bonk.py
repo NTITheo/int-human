@@ -1,9 +1,13 @@
 #import random
-
+#yeet = Good job
 userPin = 1234
 
 if userPin != int(input("Skriv in din pinkod: ")):
-    
+    exit()
+#else:
+#    print(yeet)
+
+
 
 #f = open("saldo.txt", "r")
 #saldo = int(f.read())
